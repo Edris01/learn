@@ -1,3 +1,3 @@
 "use strict"
-let login = confirm("Do you want to access me?");
+let login = prompt("Do you want to access me");
 alert(login);
