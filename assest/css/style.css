@@ -130,6 +130,7 @@ form{
 .fp{
     color: darkcyan;
 }
+/* for phones */
 @media only screen and (max-width: 600px){
 
     div .flex-item-left{
@@ -145,7 +146,11 @@ form{
     div .flex-nav-right{
         display: none;
     }
+    div .flex-nav-middle{
+        display: none;
+    }
 }
+/* for tabs */
 @media only screen and (min-width: 610px) and (max-width: 980px){
     div .flex-item-left{
         display: none;
